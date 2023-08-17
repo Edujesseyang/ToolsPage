@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 75px;
+    height: 250px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin: auto;
+    padding-left: 400px;
+
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+body {
+    background-color: rgba(247, 226, 232, 0.952);
+    background-image: url("img/background3.jpg");
+    /* Path to your background image */
+    background-size: cover;
+    /* Adjust the size of the image */
+    background-repeat: repeat;
+    /* Prevent image repetition */
+    height: 100vh;
+    /* Set the height of the content area */
+}
+
+header {
+    background-color: rgb(240, 245, 234);
+
+}
+
+header div {
+    display: inline;
+    font-size: large;
+    font-family: cursive;
+    align-items: center;
+    padding-inline: 90px;
+    background-color: rgb(247, 234, 219);
+    font-weight: bold;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header div:hover {
+    display: inline;
+    font-size: large;
+    font-family: cursive;
+    align-items: center;
+    background-color: rgb(252, 226, 216);
+    padding-inline: 90px;
+    cursor: pointer;
+    background-color: bisque;
+}
+
+#logo {
+    float: left
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    display: center;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: inherit;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    display: center;
+    background-color: bisque;
+    border-radius: 50px;
+}
+
+.spacer {
+    padding-top: 50px;
+
+}
+
+.words {
+    font-size: xx-large;
+    font-family: cursive;
+    padding-top: 10px;
+}
+
+.box {
+    background-color: rgb(240, 223, 202);
+    border-radius: 20px;
+    padding-bottom: 70px;
+    margin-top: 50px;
+
+
+}
+
+.box ul {
+    display: inline;
+}
+
+.subWords {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.words {
+    padding-left: 70px;
+}
